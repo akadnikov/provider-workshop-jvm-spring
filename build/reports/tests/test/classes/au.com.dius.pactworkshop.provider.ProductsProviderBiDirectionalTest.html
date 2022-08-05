@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - ProductsProviderBiDirectionalTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>ProductsProviderBiDirectionalTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/au.com.dius.pactworkshop.provider.html">au.com.dius.pactworkshop.provider</a> &gt; ProductsProviderBiDirectionalTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.170s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetProduct200()</td>
+<td class="success">1.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetProduct404()</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testListProducts()</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>12:31:56.349 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+12:31:56.360 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+12:31:56.388 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+12:31:56.399 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest], using SpringBootContextLoader
+12:31:56.402 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]: class path resource [au/com/dius/pactworkshop/provider/ProductsProviderBiDirectionalTest-context.xml] does not exist
+12:31:56.403 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]: class path resource [au/com/dius/pactworkshop/provider/ProductsProviderBiDirectionalTestContext.groovy] does not exist
+12:31:56.403 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:31:56.404 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]: ProductsProviderBiDirectionalTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:31:56.442 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]
+12:31:56.506 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/gilevickirill/Projects/provider-workshop-jvm-spring/build/classes/java/main/au/com/dius/pactworkshop/provider/ProviderApplication.class]
+12:31:56.507 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration au.com.dius.pactworkshop.provider.ProviderApplication for test class au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest
+12:31:56.595 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest]: using defaults.
+12:31:56.595 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:31:56.611 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7ef2d7a6, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5dcbb60, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c36250e, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@21526f6c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49f5c307, org.springframework.test.context.support.DirtiesContextTestExecutionListener@299266e2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5471388b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@66ea1466, org.springframework.test.context.event.EventPublishingTestExecutionListener@1601e47, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3bffddff, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@66971f6b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50687efb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@517bd097, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@142eef62, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a9cc6cb]
+12:31:56.614 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@62417a16 testClass = ProductsProviderBiDirectionalTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@32057e6 testClass = ProductsProviderBiDirectionalTest, locations = '{}', classes = '{class au.com.dius.pactworkshop.provider.ProviderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@70f59913, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@64b73e7a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@49cb9cb5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@146587a2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1e636ea3, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1b1426f4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false]], class annotated with @DirtiesContext [false] with mode [null].
+12:31:56.626 [Test worker] DEBUG com.atlassian.oai.validator.report.LevelLoader$PropertiesLoader - Levels file /Users/gilevickirill/Projects/provider-workshop-jvm-spring/.swagger-validator does not exist. Skipping.
+12:31:56.760 [Test worker] DEBUG io.swagger.v3.parser.OpenAPIV3Parser - Loaded raw data: {
+  &quot;openapi&quot;: &quot;3.0.1&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;OpenAPI definition&quot;,
+    &quot;version&quot;: &quot;v0&quot;
+  },
+  &quot;servers&quot;: [
+    {
+      &quot;url&quot;: &quot;http://localhost:8080&quot;,
+      &quot;description&quot;: &quot;Generated server url&quot;
+    }
+  ],
+  &quot;paths&quot;: {
+    &quot;/products&quot;: {
+      &quot;get&quot;: {
+        &quot;tags&quot;: [
+          &quot;product-controller&quot;
+        ],
+        &quot;operationId&quot;: &quot;getAllProducts&quot;,
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;OK&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;array&quot;,
+                  &quot;items&quot;: {
+                    &quot;$ref&quot;: &quot;#/components/schemas/Product&quot;
+                  }
+                },
+                &quot;examples&quot;: {
+                  &quot;exists&quot;: {
+                    &quot;value&quot;: [
+                      {
+                        &quot;id&quot;: &quot;9&quot;,
+                        &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                        &quot;name&quot;: &quot;GEM Visa&quot;,
+                        &quot;version&quot;: &quot;v2&quot;
+                      },
+                      {
+                        &quot;id&quot;: &quot;10&quot;,
+                        &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                        &quot;name&quot;: &quot;28 Degrees&quot;,
+                        &quot;version&quot;: &quot;v1&quot;
+                      }
+                    ]
+                  },
+                  &quot;notExists&quot;: {
+                    &quot;value&quot;: []
+                  }
+                }
+              }
+            }
+          },
+          &quot;401&quot;: {
+            &quot;$ref&quot;: &quot;#/components/responses/UnauthorizedError&quot;
+          }
+        }
+      }
+    },
+    &quot;/product/{id}&quot;: {
+      &quot;get&quot;: {
+        &quot;tags&quot;: [
+          &quot;product-controller&quot;
+        ],
+        &quot;operationId&quot;: &quot;getProductById&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;OK&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Product&quot;
+                },
+                &quot;example&quot;: {
+                  &quot;id&quot;: &quot;50&quot;,
+                  &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                  &quot;name&quot;: &quot;28 Degrees&quot;,
+                  &quot;version&quot;: &quot;v1&quot;
+                }
+              }
+            }
+          },
+          &quot;401&quot;: {
+            &quot;$ref&quot;: &quot;#/components/responses/UnauthorizedError&quot;
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Product not found&quot;,
+            &quot;content&quot;: {}
+          }
+        }
+      }
+    }
+  },
+  &quot;components&quot;: {
+    &quot;responses&quot;: {
+      &quot;UnauthorizedError&quot;: {
+        &quot;description&quot;: &quot;Access token is missing or invalid&quot;
+      }
+    },
+    &quot;schemas&quot;: {
+      &quot;Product&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;id&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;name&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;version&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      }
+    },
+    &quot;securitySchemes&quot;: {
+      &quot;bearerAuth&quot;: {
+        &quot;type&quot;: &quot;http&quot;,
+        &quot;scheme&quot;: &quot;bearer&quot;,
+        &quot;bearerFormat&quot;: &quot;Bearer (19|20)\\d\\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][1-9]|2[0123]):[0-5][0-9]&quot;
+      }
+    }
+  },
+  &quot;security&quot;: [
+    {
+      &quot;bearerAuth&quot;: []
+    }
+  ]
+}
+
+12:31:56.808 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:56.808 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:56.808 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:56.808 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:56.808 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.058 [Test worker] DEBUG com.atlassian.oai.validator.report.LevelLoader$PropertiesLoader - Levels file /Users/gilevickirill/Projects/provider-workshop-jvm-spring/.swagger-validator does not exist. Skipping.
+12:31:57.058 [Test worker] DEBUG com.atlassian.oai.validator.report.LevelLoader$PropertiesLoader - Levels file /Users/gilevickirill/Projects/provider-workshop-jvm-spring/.swagger-validator does not exist. Skipping.
+12:31:57.067 [Test worker] DEBUG io.swagger.v3.parser.OpenAPIV3Parser - Loaded raw data: {
+  &quot;openapi&quot;: &quot;3.0.1&quot;,
+  &quot;info&quot;: {
+    &quot;title&quot;: &quot;OpenAPI definition&quot;,
+    &quot;version&quot;: &quot;v0&quot;
+  },
+  &quot;servers&quot;: [
+    {
+      &quot;url&quot;: &quot;http://localhost:8080&quot;,
+      &quot;description&quot;: &quot;Generated server url&quot;
+    }
+  ],
+  &quot;paths&quot;: {
+    &quot;/products&quot;: {
+      &quot;get&quot;: {
+        &quot;tags&quot;: [
+          &quot;product-controller&quot;
+        ],
+        &quot;operationId&quot;: &quot;getAllProducts&quot;,
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;OK&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;type&quot;: &quot;array&quot;,
+                  &quot;items&quot;: {
+                    &quot;$ref&quot;: &quot;#/components/schemas/Product&quot;
+                  }
+                },
+                &quot;examples&quot;: {
+                  &quot;exists&quot;: {
+                    &quot;value&quot;: [
+                      {
+                        &quot;id&quot;: &quot;9&quot;,
+                        &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                        &quot;name&quot;: &quot;GEM Visa&quot;,
+                        &quot;version&quot;: &quot;v2&quot;
+                      },
+                      {
+                        &quot;id&quot;: &quot;10&quot;,
+                        &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                        &quot;name&quot;: &quot;28 Degrees&quot;,
+                        &quot;version&quot;: &quot;v1&quot;
+                      }
+                    ]
+                  },
+                  &quot;notExists&quot;: {
+                    &quot;value&quot;: []
+                  }
+                }
+              }
+            }
+          },
+          &quot;401&quot;: {
+            &quot;$ref&quot;: &quot;#/components/responses/UnauthorizedError&quot;
+          }
+        }
+      }
+    },
+    &quot;/product/{id}&quot;: {
+      &quot;get&quot;: {
+        &quot;tags&quot;: [
+          &quot;product-controller&quot;
+        ],
+        &quot;operationId&quot;: &quot;getProductById&quot;,
+        &quot;parameters&quot;: [
+          {
+            &quot;name&quot;: &quot;id&quot;,
+            &quot;in&quot;: &quot;path&quot;,
+            &quot;required&quot;: true,
+            &quot;schema&quot;: {
+              &quot;type&quot;: &quot;string&quot;
+            }
+          }
+        ],
+        &quot;responses&quot;: {
+          &quot;200&quot;: {
+            &quot;description&quot;: &quot;OK&quot;,
+            &quot;content&quot;: {
+              &quot;application/json&quot;: {
+                &quot;schema&quot;: {
+                  &quot;$ref&quot;: &quot;#/components/schemas/Product&quot;
+                },
+                &quot;example&quot;: {
+                  &quot;id&quot;: &quot;50&quot;,
+                  &quot;type&quot;: &quot;CREDIT_CARD&quot;,
+                  &quot;name&quot;: &quot;28 Degrees&quot;,
+                  &quot;version&quot;: &quot;v1&quot;
+                }
+              }
+            }
+          },
+          &quot;401&quot;: {
+            &quot;$ref&quot;: &quot;#/components/responses/UnauthorizedError&quot;
+          },
+          &quot;404&quot;: {
+            &quot;description&quot;: &quot;Product not found&quot;,
+            &quot;content&quot;: {}
+          }
+        }
+      }
+    }
+  },
+  &quot;components&quot;: {
+    &quot;responses&quot;: {
+      &quot;UnauthorizedError&quot;: {
+        &quot;description&quot;: &quot;Access token is missing or invalid&quot;
+      }
+    },
+    &quot;schemas&quot;: {
+      &quot;Product&quot;: {
+        &quot;type&quot;: &quot;object&quot;,
+        &quot;properties&quot;: {
+          &quot;id&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;type&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;name&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          },
+          &quot;version&quot;: {
+            &quot;type&quot;: &quot;string&quot;
+          }
+        }
+      }
+    },
+    &quot;securitySchemes&quot;: {
+      &quot;bearerAuth&quot;: {
+        &quot;type&quot;: &quot;http&quot;,
+        &quot;scheme&quot;: &quot;bearer&quot;,
+        &quot;bearerFormat&quot;: &quot;Bearer (19|20)\\d\\d-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])T([01][1-9]|2[0123]):[0-5][0-9]&quot;
+      }
+    }
+  },
+  &quot;security&quot;: [
+    {
+      &quot;bearerAuth&quot;: []
+    }
+  ]
+}
+
+12:31:57.080 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.080 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.080 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.080 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.080 [Test worker] DEBUG io.swagger.v3.parser.util.ResolverFully - avoiding infinite loop
+12:31:57.090 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@62417a16 testClass = ProductsProviderBiDirectionalTest, testInstance = au.com.dius.pactworkshop.provider.ProductsProviderBiDirectionalTest@3bfc6a5e, testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@32057e6 testClass = ProductsProviderBiDirectionalTest, locations = '{}', classes = '{class au.com.dius.pactworkshop.provider.ProviderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@70f59913, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@64b73e7a, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@49cb9cb5, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@146587a2, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1e636ea3, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1b1426f4], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; false, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-08-05 12:31:57.358  INFO 28719 --- [    Test worker] .d.p.p.ProductsProviderBiDirectionalTest : Starting ProductsProviderBiDirectionalTest using Java 16 on MacBookGilevichKYu3.local with PID 28719 (started by gilevickirill in /Users/gilevickirill/Projects/provider-workshop-jvm-spring)
+2022-08-05 12:31:57.359  INFO 28719 --- [    Test worker] .d.p.p.ProductsProviderBiDirectionalTest : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2022-08-05 12:31:57.941  INFO 28719 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-05 12:31:57.949  INFO 28719 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2022-08-05 12:31:58.366  INFO 28719 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+2022-08-05 12:31:58.374  INFO 28719 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-05 12:31:58.374  INFO 28719 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-05 12:31:58.515  INFO 28719 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-05 12:31:58.515  INFO 28719 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2022-08-05 12:31:58.679  INFO 28719 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-05 12:31:58.806  INFO 28719 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-05 12:31:58.843  INFO 28719 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-05 12:31:58.881  INFO 28719 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-05 12:31:58.991  INFO 28719 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-05 12:31:59.069  INFO 28719 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-08-05 12:31:59.210  INFO 28719 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-05 12:31:59.217  INFO 28719 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-05 12:31:59.290  WARN 28719 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-05 12:31:59.890  INFO 28719 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+2022-08-05 12:31:59.898  INFO 28719 --- [    Test worker] .d.p.p.ProductsProviderBiDirectionalTest : Started ProductsProviderBiDirectionalTest in 2.786 seconds (JVM running for 4.307)
+2022-08-05 12:32:00.744  INFO 28719 --- [nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-05 12:32:00.744  INFO 28719 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-05 12:32:00.745  INFO 28719 --- [nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.4.2</a> at 5 авг. 2022 г., 12:32:03</p>
+</div>
+</div>
+</body>
+</html>
