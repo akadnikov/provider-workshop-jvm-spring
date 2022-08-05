@@ -1,0 +1,5 @@
+#### Consumer-driven PACT
+
+docker-compose up -d
+
+./gradlew -DpactPublishResults=true clean test --tests "au.com.dius.pactworkshop.provider.ProductPactProviderTest"
