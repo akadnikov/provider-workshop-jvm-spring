@@ -14,7 +14,7 @@ public class validateWithOAS {
     public void validateWithOASTest() {
 
         final String API_SPEC_URL = new File("oas/schema.json").getAbsolutePath();
-        final String BROKER_URL = "http://localhost:8000";
+        final String BROKER_URL = "http://pactbroker.dev.gazprombank.ru:8000";
         final String USERNAME = "pact_workshop";
         final String PASSWORD = "pact_workshop";
         final String PROVIDER_ID = "ProductService";

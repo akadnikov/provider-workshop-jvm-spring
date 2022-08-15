@@ -34,11 +34,11 @@ import static org.mockito.Mockito.when;
 @Provider("ProductService")
 //@PactFolder("pacts")
 @PactBroker(
-        host = "localhost",
+        host = "pactbroker.dev.gazprombank.ru",
         port = "8000",
         authentication = @PactBrokerAuth(username = "pact_workshop", password = "pact_workshop")
 //        enablePendingPacts = "true",
-//        providerTags = "true"
+//        providerTags = "master"
 )
 @ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)

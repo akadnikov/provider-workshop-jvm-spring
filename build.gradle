@@ -28,8 +28,8 @@ apply plugin: "net.idlestate.download-dependencies"
 
 group = 'au.com.dius.pactworkshop'
 version = '0.0.1'
-sourceCompatibility = "16"
-targetCompatibility = "16"
+sourceCompatibility = "14"
+targetCompatibility = "14"
 
 configurations {
     compileOnly {
